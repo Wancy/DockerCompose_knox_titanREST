@@ -1,0 +1,28 @@
+version: '2'
+services:
+  ldap:
+    image: wancy/knox_titanREST
+    command: /ldap.sh
+
+  knox:
+    image: wancy/knox_titanREST
+    ports:
+    - "8443:8443"
+    command: /gateway.sh
+    volumes:
+     - ./topologies:/knox/conf/topologies
+     - ./titan:/knox/data/services/titan
+    depends_on:
+    - ldap
+
+  titan:
+    image: elubow/titan-gremlin
+    depends_on:
+        - es1
+        - cas1
+    ports:
+        - "8182:8182"
+  es1:
+    image: elasticsearch
+  cas1:
+    image: elubow/cassandra

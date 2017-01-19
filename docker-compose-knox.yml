@@ -1,0 +1,9 @@
+version: '2'
+services:
+ ldap:
+    build: .
+    image: wancy/knox_titanREST
+
+ knox:
+    build: .
+    image: wancy/knox_titanREST
