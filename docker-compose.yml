@@ -23,7 +23,7 @@ services:
         - cas1
     ports:
         - "8182"
-    command: /runtitan.sh
+    command: /run.sh
   es1:
     image: elasticsearch:1.5
   cas1:
