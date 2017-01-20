@@ -10,6 +10,12 @@ RUN wget -q -O /knox-${KNOX_VERSION}.zip http://download.nextag.com/apache/knox/
 ADD master /knox/data/security/master
 RUN chown -R knox /knox/data/security
 
+ADD titan/rewrite.xml /knox/data/services/titan/rewrite.xml
+RUN chmod 755 /knox/data/services/titan/rewrite.xml
+
+ADD titan/service.xml /knox/data/services/titan/service.xml
+RUN chmod 755 /knox/data/services/titan/service.xml
+
 ADD ldap.sh /ldap.sh
 RUN chmod 744 /ldap.sh
 ADD gateway.sh /gateway.sh
