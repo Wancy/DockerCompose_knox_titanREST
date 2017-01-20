@@ -11,9 +11,11 @@ ADD master /knox/data/security/master
 RUN chown -R knox /knox/data/security
 
 ADD titan/rewrite.xml /knox/data/services/titan/rewrite.xml
+RUN chown -R knox /knox/data/services/titan/rewrite.xml
 RUN chmod 755 /knox/data/services/titan/rewrite.xml
 
 ADD titan/service.xml /knox/data/services/titan/service.xml
+RUN chown -R knox /knox/data/services/titan/service.xml
 RUN chmod 755 /knox/data/services/titan/service.xml
 
 ADD ldap.sh /ldap.sh
