@@ -23,7 +23,6 @@ services:
         - cas1
     ports:
         - "8182"
-    command: /run.sh
   es1:
     image: elasticsearch:1.5
   cas1:
