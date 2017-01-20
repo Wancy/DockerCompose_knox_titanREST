@@ -21,8 +21,8 @@ services:
         - es1
         - cas1
     ports:
-        - "8182:8182"
+        - "8182"
   es1:
-    image: elasticsearch
+    image: elasticsearch:1.5
   cas1:
     image: elubow/cassandra

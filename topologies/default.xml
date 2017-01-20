@@ -79,6 +79,6 @@
 
     <service>
         <role>titan</role>
-        <url>http://titan:8182</url>
+        <url>http://localhost:8182</url>
     </service>
 </topology>
