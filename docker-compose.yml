@@ -1,19 +1,19 @@
 version: '2'
 services:
   ldap:
-    image: wancy/knox_titanREST
+    image: wancy/knox_titanrest_testing
     command: /ldap.sh
 
   knox:
-    image: wancy/knox_titanREST
+    image: wancy/knox_titanrest_testing
     ports:
-    - "8443:8443"
+       - "8443:8443"
     command: /gateway.sh
     volumes:
-     - ./topologies:/knox/conf/topologies
-     - ./titan:/knox/data/services/titan
+       - ./topologies:/knox/conf/topologies
+       - ./titan:/knox/data/services/titan
     depends_on:
-    - ldap
+       - ldap
 
   titan:
     image: elubow/titan-gremlin
