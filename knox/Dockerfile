@@ -11,7 +11,9 @@ ADD master /knox/data/security/master
 RUN chown -R knox /knox/data/security
 
 ADD ldap.sh /ldap.sh
+RUN chmod 744 /ldap.sh
 ADD gateway.sh /gateway.sh
+RUN chmod 744 /gateway.sh
 
 USER knox
 WORKDIR /knox
