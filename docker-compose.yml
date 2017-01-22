@@ -20,3 +20,4 @@ services:
     image: wancy/titan-gremlin
     ports:
         - "8182"
+    command: /run.sh
