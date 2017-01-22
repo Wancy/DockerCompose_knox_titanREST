@@ -13,8 +13,8 @@ RUN chown -R knox /knox/data/security
 ADD titan/1.0.0/rewrite.xml /knox/data/services/titan/1.0.0/rewrite.xml
 
 ADD titan/1.0.0/service.xml /knox/data/services/titan/1.0.0/service.xml
-RUN chown -R knox /knox/data/services/titan
-RUN chmod 755 /knox/data/services/titan
+
+ADD titan/titan.xml /knox/conf/topologies/titan.xml
 
 ADD ldap.sh /ldap.sh
 RUN chmod 744 /ldap.sh
