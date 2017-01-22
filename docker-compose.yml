@@ -17,13 +17,6 @@ services:
        - ldap
 
   titan:
-    image: elubow/titan-gremlin
-    depends_on:
-        - es1
-        - cas1
+    image: wancy/titan-gremlin
     ports:
         - "8182"
-  es1:
-    image: elasticsearch:1.5
-  cas1:
-    image: elubow/cassandra
