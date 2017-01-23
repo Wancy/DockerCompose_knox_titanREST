@@ -15,10 +15,13 @@ services:
        - ./logs:/knox/logs
     depends_on:
        - ldap
+    linkes:
+       - titan
 
   titan:
     image: wancy/titan-gremlin
     ports:
         - "8182:8182"
-    command: /bin/bash 
+    command: /bin/bash
+    tty: true
        
