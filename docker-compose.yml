@@ -15,7 +15,7 @@ services:
        - ./logs:/knox/logs
     depends_on:
        - ldap
-    linkes:
+    links:
        - titan
 
   titan:
