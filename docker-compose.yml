@@ -15,8 +15,6 @@ services:
        - ./logs:/knox/logs
     depends_on:
        - ldap
-    links:
-       - titan
 
   titan:
     image: wancy/titan-gremlin
