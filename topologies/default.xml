@@ -22,9 +22,9 @@
             <name>ShiroProvider</name>
             <enabled>true</enabled>
             <param>
-                <!-- 
+                <!--
                 session timeout in minutes,  this is really idle timeout,
-                defaults to 30mins, if the property value is not defined,, 
+                defaults to 30mins, if the property value is not defined,,
                 current client authentication would expire if client idles contiuosly for more than this value
                 -->
                 <name>sessionTimeout</name>
@@ -48,7 +48,7 @@
             </param>
             <param>
                 <name>main.ldapRealm.contextFactory.url</name>
-                <value>ldap://ldap:33389</value>
+                <value>ldap://localhost:33389</value>
             </param>
             <param>
                 <name>main.ldapRealm.contextFactory.authenticationMechanism</name>
@@ -65,20 +65,13 @@
             <name>Default</name>
             <enabled>true</enabled>
         </provider>
-        
-        <provider>
-            <role>ha</role>
-            <name>HaProvider</name>
-            <enabled>true</enabled>
-            <param>
-               <name>SOLR</name>
-               <value>maxFailoverAttempts=3;failoverSleep=1000;enabled=true</value>
-            </param>
-        </provider>
-    </gateway>
 
+    </gateway>
+    
     <service>
-        <role>titan</role>
-        <url>http://localhost:8182</url>
+        <role>TITANREST</role>
+        <url>http://titan:8182</url>
     </service>
+    
+   
 </topology>
