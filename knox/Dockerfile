@@ -14,7 +14,7 @@ ADD titan/1.0.0/rewrite.xml /knox/data/services/titan/1.0.0/rewrite.xml
 
 ADD titan/1.0.0/service.xml /knox/data/services/titan/1.0.0/service.xml
 
-ADD titan/titan.xml /knox/conf/topologies/titan.xml
+ADD titan/default.xml /knox/conf/topologies/default.xml
 
 ADD ldap.sh /ldap.sh
 RUN chmod 744 /ldap.sh
