@@ -21,7 +21,4 @@ services:
   titan:
     image: wancy/titan-gremlin
     ports:
-        - "8182"
-    command: /bin/bash
-    tty: true
-       
+        - "8182:8182"
