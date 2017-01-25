@@ -1,0 +1,200 @@
+gateway.log
+2017-01-20 16:37:26,766 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-20 16:37:26,770 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-20 16:37:26,770 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-20 16:37:26,771 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-20 16:37:26,771 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-20 16:37:26,962 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-20 16:37:26,971 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-20 16:37:26,988 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-20 16:37:27,315 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-20 16:37:27,316 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-20 16:37:27,438 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-20 16:37:27,441 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/20/17 4:37 PM and 1/20/18 4:37 PM.
+2017-01-20 16:37:27,741 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-20 16:37:28,041 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-20 16:37:28,146 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-20 16:37:28,147 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-20 16:37:29,318 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-20 16:37:29,504 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-20 16:37:29,510 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-20 16:47:43,388 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-20 16:47:43,407 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-20 16:47:43,408 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-20 16:47:43,408 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-20 16:47:43,410 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-20 16:47:43,965 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-20 16:47:43,991 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-20 16:47:44,023 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-20 16:47:44,644 INFO  hadoop.gateway (JettySSLService.java:init(95)) - Credential store for the gateway instance found - no need to create one.
+2017-01-20 16:47:44,670 INFO  hadoop.gateway (JettySSLService.java:init(117)) - Keystore for the gateway instance found - no need to create one.
+2017-01-20 16:47:44,673 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-20 16:47:44,675 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/20/17 4:37 PM and 1/20/18 4:37 PM.
+2017-01-20 16:47:45,233 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-20 16:47:45,590 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-20 16:47:45,747 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(686)) - Loading topology default from /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-20 16:47:45,748 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-20 16:47:46,161 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-20 16:47:46,167 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 00:38:46,695 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 00:38:46,709 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 00:38:46,709 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 00:38:46,710 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 00:38:46,711 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 00:38:46,918 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 00:38:46,925 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 00:38:46,957 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 00:38:47,410 INFO  hadoop.gateway (JettySSLService.java:init(95)) - Credential store for the gateway instance found - no need to create one.
+2017-01-23 00:38:47,426 INFO  hadoop.gateway (JettySSLService.java:init(117)) - Keystore for the gateway instance found - no need to create one.
+2017-01-23 00:38:47,430 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 00:38:47,434 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 12:06 AM and 1/23/18 12:06 AM.
+2017-01-23 00:38:47,721 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 00:38:48,057 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:38:48,163 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(686)) - Loading topology default from /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 00:38:48,163 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 00:38:48,370 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:38:48,375 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 00:45:47,431 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 00:45:47,434 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 00:45:47,434 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 00:45:47,435 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 00:45:47,435 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 00:45:47,586 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 00:45:47,592 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 00:45:47,626 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 00:45:47,913 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-23 00:45:47,914 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-23 00:45:48,016 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 00:45:48,017 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 12:45 AM and 1/23/18 12:45 AM.
+2017-01-23 00:45:48,236 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 00:45:48,483 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:45:48,573 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 00:45:48,574 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 00:45:49,592 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 00:45:49,739 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:45:49,745 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 00:46:31,684 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 00:46:31,687 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 00:46:31,688 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 00:46:31,688 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 00:46:31,689 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 00:46:31,852 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 00:46:31,858 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 00:46:31,907 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 00:46:32,200 INFO  hadoop.gateway (JettySSLService.java:init(95)) - Credential store for the gateway instance found - no need to create one.
+2017-01-23 00:46:32,215 INFO  hadoop.gateway (JettySSLService.java:init(117)) - Keystore for the gateway instance found - no need to create one.
+2017-01-23 00:46:32,219 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 00:46:32,221 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 12:45 AM and 1/23/18 12:45 AM.
+2017-01-23 00:46:32,440 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 00:46:32,696 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:46:32,793 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(686)) - Loading topology default from /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 00:46:32,794 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 00:46:32,940 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:46:32,948 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 00:51:02,626 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 00:51:02,629 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 00:51:02,629 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 00:51:02,629 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 00:51:02,630 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 00:51:02,780 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 00:51:02,786 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 00:51:02,802 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 00:51:03,097 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-23 00:51:03,098 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-23 00:51:03,219 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 00:51:03,221 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 12:51 AM and 1/23/18 12:51 AM.
+2017-01-23 00:51:03,437 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 00:51:03,677 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:51:03,768 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 00:51:03,769 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 00:51:04,707 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 00:51:04,856 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 00:51:04,861 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 01:11:49,889 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 01:11:49,893 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 01:11:49,893 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 01:11:49,894 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 01:11:49,894 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 01:11:50,072 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 01:11:50,079 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 01:11:50,096 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 01:11:50,423 INFO  hadoop.gateway (JettySSLService.java:init(95)) - Credential store for the gateway instance found - no need to create one.
+2017-01-23 01:11:50,440 INFO  hadoop.gateway (JettySSLService.java:init(117)) - Keystore for the gateway instance found - no need to create one.
+2017-01-23 01:11:50,443 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 01:11:50,445 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 12:51 AM and 1/23/18 12:51 AM.
+2017-01-23 01:11:50,651 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 01:11:50,902 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 01:11:50,998 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(686)) - Loading topology default from /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 01:11:50,998 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 01:11:51,154 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 01:11:51,159 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 05:55:03,743 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 05:55:03,746 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 05:55:03,747 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 05:55:03,747 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 05:55:03,748 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 05:55:03,923 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 05:55:03,930 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 05:55:03,963 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 05:55:04,266 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-23 05:55:04,268 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-23 05:55:04,345 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 05:55:04,350 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 5:55 AM and 1/23/18 5:55 AM.
+2017-01-23 05:55:04,597 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 05:55:04,887 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 05:55:04,977 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 05:55:04,978 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 05:55:05,961 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 05:55:06,112 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 05:55:06,119 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 06:37:21,138 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 06:37:21,141 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 06:37:21,141 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 06:37:21,142 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 06:37:21,142 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 06:37:21,313 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 06:37:21,320 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 06:37:21,340 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 06:37:21,686 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-23 06:37:21,687 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-23 06:37:21,790 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 06:37:21,792 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 6:37 AM and 1/23/18 6:37 AM.
+2017-01-23 06:37:22,030 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 06:37:22,326 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 06:37:22,423 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159bab1e5d0
+2017-01-23 06:37:22,424 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 06:37:23,434 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 06:37:23,614 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 06:37:23,621 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.
+2017-01-23 06:59:10,398 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159ca1efe90
+2017-01-23 06:59:10,399 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 06:59:10,528 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 06:59:10,529 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology admin to /knox-0.11.0/bin/../data/deployments/admin.topo.159ca1efe90
+2017-01-23 06:59:10,530 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology admin
+2017-01-23 06:59:10,666 INFO  hadoop.gateway (DefaultGatewayServices.java:initializeContribution(197)) - Creating credential store for the cluster: admin
+2017-01-23 06:59:11,009 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology admin
+2017-01-23 06:59:11,010 INFO  hadoop.gateway (GatewayServer.java:internalActivateArchive(565)) - Activating topology admin archive %2F
+2017-01-23 07:04:47,025 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.name=knox
+2017-01-23 07:04:47,028 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: user.dir=/knox-0.11.0
+2017-01-23 07:04:47,028 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.name=OpenJDK Runtime Environment
+2017-01-23 07:04:47,029 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.runtime.version=1.8.0_111-internal-alpine-r0-b14
+2017-01-23 07:04:47,029 INFO  hadoop.gateway (GatewayServer.java:logSysProp(195)) - System Property: java.home=/usr/lib/jvm/java-1.8-openjdk/jre
+2017-01-23 07:04:47,188 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigResource(348)) - Loading configuration resource jar:file:/knox-0.11.0/bin/../lib/gateway-server-0.11.0.jar!/conf/gateway-default.xml
+2017-01-23 07:04:47,194 INFO  hadoop.gateway (GatewayConfigImpl.java:loadConfigFile(336)) - Loading configuration file /knox-0.11.0/bin/../conf/gateway-site.xml
+2017-01-23 07:04:47,211 INFO  hadoop.gateway (GatewayConfigImpl.java:initGatewayHomeDir(280)) - Using /knox-0.11.0/bin/.. as GATEWAY_HOME via system property.
+2017-01-23 07:04:47,509 INFO  hadoop.gateway (JettySSLService.java:init(87)) - Creating credential store for the gateway instance.
+2017-01-23 07:04:47,511 INFO  hadoop.gateway (JettySSLService.java:init(103)) - Creating keystore for the gateway instance.
+2017-01-23 07:04:47,632 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(146)) - The Gateway SSL certificate is issued to hostname: localhost.
+2017-01-23 07:04:47,633 INFO  hadoop.gateway (JettySSLService.java:logAndValidateCertificate(149)) - The Gateway SSL certificate is valid between: 1/23/17 7:04 AM and 1/23/18 7:04 AM.
+2017-01-23 07:04:47,839 INFO  hadoop.gateway (GatewayServer.java:startGateway(281)) - Starting gateway...
+2017-01-23 07:04:48,078 INFO  hadoop.gateway (GatewayServer.java:start(409)) - Loading topologies from directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 07:04:48,183 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology default to /knox-0.11.0/bin/../data/deployments/default.topo.159ca1efe90
+2017-01-23 07:04:48,184 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology default
+2017-01-23 07:04:49,124 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology default
+2017-01-23 07:04:49,194 INFO  hadoop.gateway (GatewayServer.java:handleCreateDeployment(666)) - Deploying topology admin to /knox-0.11.0/bin/../data/deployments/admin.topo.159ca1efe90
+2017-01-23 07:04:49,194 INFO  hadoop.gateway (GatewayServer.java:internalDeactivateTopology(585)) - Deactivating topology admin
+2017-01-23 07:04:49,357 INFO  hadoop.gateway (DefaultGatewayServices.java:initializeContribution(197)) - Creating credential store for the cluster: admin
+2017-01-23 07:04:49,718 INFO  hadoop.gateway (GatewayServer.java:internalActivateTopology(555)) - Activating topology admin
+2017-01-23 07:04:49,719 INFO  hadoop.gateway (GatewayServer.java:internalActivateArchive(565)) - Activating topology admin archive %2F
+2017-01-23 07:04:50,262 INFO  hadoop.gateway (GatewayServer.java:start(425)) - Monitoring topologies in directory: /knox-0.11.0/bin/../conf/topologies
+2017-01-23 07:04:50,270 INFO  hadoop.gateway (GatewayServer.java:startGateway(296)) - Started gateway on port 8,443.

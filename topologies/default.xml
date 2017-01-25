@@ -70,7 +70,7 @@
     
     <service>
         <role>TITANREST</role>
-        <url>http://localhost:8182</url>
+        <url>http://titan:8182</url>
     </service>
     
    
