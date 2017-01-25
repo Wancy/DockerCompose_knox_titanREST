@@ -1,10 +1,12 @@
 # DockerCompose_knox_titanREST
 Getting Started
 
-docker-compose run 
+docker-compose run
+
 ./knox_titanREST.sh
 
-The request will all return the following result by gremlin-server
+
+The request will all return something like the following result by gremlin-server
 
 HTTP/1.1 400 Bad Request
 Date: Wed, 25 Jan 2017 08:18:56 GMT
