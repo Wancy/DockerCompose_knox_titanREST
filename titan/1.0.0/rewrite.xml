@@ -15,15 +15,15 @@
    limitations under the License.
 -->
 <rules>
-    <rule dir="IN" name="TITANREST/titan/inbound/query" pattern="*://*:*/**/titan/{**}?{**}">
+    <rule dir="IN" name="TITANREST/titan/inbound/query" pattern="*://*:*/**/{**}?{**}">
         <rewrite template="{$serviceUrl[TITANREST]}/{**}?{**}"/>
     </rule>
 
-    <rule dir="IN" name="TITANREST/titan/inbound/path" pattern="*://*:*/**/titan/{**}">
+    <rule dir="IN" name="TITANREST/titan/inbound/path" pattern="*://*:*/**/{**}">
         <rewrite template="{$serviceUrl[TITANREST]}/{**}"/>
     </rule>
 
-    <rule dir="IN" name="TITANREST/titan/inbound/root" pattern="*://*:*/**/titan">
+    <rule dir="IN" name="TITANREST/titan/inbound/root" pattern="*://*:*/**/">
         <rewrite template="{$serviceUrl[TITANREST]}"/>
     </rule>
 
