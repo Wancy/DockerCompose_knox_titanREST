@@ -19,7 +19,11 @@
         <rewrite template="{$serviceUrl[TITANREST]}/{**}?{**}"/>
     </rule>
 
-    <rule dir="IN" name="TITANREST/titan/inbound/path" pattern="*://*:*/**/{**}">
+   <rule dir="IN" name="TITANREST/titan/inbound/query" pattern="*://*:*/**/{**}">
+        <rewrite template="{$serviceUrl[TITANREST]}/{**}"/>
+    </rule>
+   
+   <rule dir="IN" name="TITANREST/titan/inbound/path" pattern="*://*:*/**/{**}">
         <rewrite template="{$serviceUrl[TITANREST]}/{**}"/>
     </rule>
 
