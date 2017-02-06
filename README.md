@@ -1,22 +1,28 @@
 # DockerCompose_knox_titanREST
 Getting Started
+1. Install docker compose https://docs.docker.com/compose/install/
+2. get git repository
+# git clone git@github.com:Wancy/DockerCompose_knox_titanREST.git
+# git pull
+3. cd to the git repository
+4. run docker compose
+# docker-compose up -d
+5. check if three containers are running
+# docker ps
 
-docker-compose run
+6. Try curl command
 
-./knox_titanREST.sh
+# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan -d '{"gremlin": "100-1"}'
+
+# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan/graphs -d '{"gremlin": "100-1"}'
+
+# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan?gremlin=100-1
+
+# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan/graphs?gremlin=100-1
+
+The command should all return corrent result something like:
+
+{"requestId":"732a1e6f-b1b8-4867-9f33-044903cc604b","status":{"message":"","code":200,"attributes":{}},"result":{"data":[99],"meta":{}}}
 
 
-The request will all return something like the following result by gremlin-server
 
-HTTP/1.1 400 Bad Request
-Date: Wed, 25 Jan 2017 08:18:56 GMT
-Set-Cookie: JSESSIONID=1evell28k1mo0w9tbnfrf6vxu;Path=/gateway/titan;Secure;HttpOnly
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Set-Cookie: rememberMe=deleteMe; Path=/gateway/titan; Max-Age=0; Expires=Tue, 24-Jan-2017 08:18:56 GMT
-Content-Type: application/json; charset=UTF-8
-Content-Length: 38
-Server: Jetty(9.2.15.v20160210)
-
-{"message":"body could not be parsed"}
-
-if specify query it will return the correct result.
