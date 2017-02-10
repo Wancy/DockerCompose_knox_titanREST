@@ -1,11 +1,11 @@
 version: '2'
 services:
   ldap:
-    image: wancy/knox_titanrest_testing:knox
+    image: wancy/knox_titanrest_testing
     command: /ldap.sh
 
   knox:
-    image: wancy/knox_titanrest_testing:knox
+    image: wancy/knox_titanrest_testing
     ports:
        - "8443:8443"
     command: /gateway.sh
