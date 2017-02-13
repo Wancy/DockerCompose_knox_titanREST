@@ -13,13 +13,13 @@ Getting Started
 
 6. Try curl command
 
-1)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan -d '{"gremlin": "100-1"}'
+1)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/gremlin -d '{"gremlin": "100-1"}'
 
-2)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan/graphs -d '{"gremlin": "100-1"}'
+2)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/gremlin/graphs -d '{"gremlin": "100-1"}'
 
-3)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan?gremlin=100-1
+3)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/gremlin?gremlin=100-1
 
-4)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/titan/graphs?gremlin=100-1
+4)# curl  -Hcontent-type:application/json -u guest:guest-password -k  https://localhost:8443/gateway/default/gremlin/graphs?gremlin=100-1
 
 The command should all return corrent result something like:
 
