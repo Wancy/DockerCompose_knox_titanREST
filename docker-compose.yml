@@ -11,14 +11,14 @@ services:
     command: /gateway.sh
     volumes:
        - ./topologies:/knox/conf/topologies
-       - ./titan:/knox/data/services/titan
+       - ./gremlin:/knox/data/services/gremlin
        - ./logs:/knox/logs
     depends_on:
        - ldap
     links:
-       - titan
+       - gremlin
 
-  titan:
+  gremlin:
     image: wancy/titan-gremlin
     ports:
         - "8182:8182"

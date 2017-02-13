@@ -69,8 +69,8 @@
     </gateway>
     
     <service>
-        <role>TITANREST</role>
-        <url>http://titan:8182</url>
+        <role>GREMLINREST</role>
+        <url>http://gremlin:8182</url>
     </service>
     
    
